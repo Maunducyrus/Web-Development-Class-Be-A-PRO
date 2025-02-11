@@ -8,6 +8,7 @@ h5 {
     margin: 80px;
 }
 body {
+    /* background-color: lightblue; */
     background-image: url(img/city-2.png);
     background-repeat: no-repeat;
     background-size: cover;
