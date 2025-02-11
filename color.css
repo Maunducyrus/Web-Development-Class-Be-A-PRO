@@ -1,0 +1,15 @@
+h5 {
+    color: blueviolet;
+    background-color: hotpink;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px solid black;    
+    padding: 30px;
+    margin: 80px;
+}
+body {
+    background-image: url(img/city-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
