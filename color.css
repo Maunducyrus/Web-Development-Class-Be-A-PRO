@@ -1,4 +1,4 @@
-h5 {
+h1 {
     color: blueviolet;
     background-color: hotpink;
     font-size: 200%;
@@ -11,7 +11,7 @@ h5 {
 body {
     /* background-color: lightblue; */
     background-image: url(img/city-2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
 
 }
