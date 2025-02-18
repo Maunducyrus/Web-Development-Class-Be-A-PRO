@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DIV ELEMENT</title>
+
+    <!-- <style>
+        div {
+            background-color: #23c30e;
+            width: 300px;
+            margin: auto;
+        }
+    </style> -->
+
+    <!-- sytling using float -->
+
+    <!-- <style>
+        .container {
+            width: 100%;
+            overflow: auto;
+        }
+        .container div {
+            width: 33%;
+            float: left;
+        }
+    </style> -->
+
+    <!-- styling using inline-block -->
+    <!-- <style>
+        div {
+            width: 32%;
+            display: inline-block;
+        }
+    </style> -->
+
+    <!-- styling using display flex -->
+    <!-- <style>
+        .container {
+            display: flex;
+        }
+        .container div {
+            width: 32%;
+        }
+    </style> -->
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 30% 33% 39%;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- HTML Div Element -->
+     <!-- div - Element used as a container for other HTML Elements -->
+
+     <!-- You are welcomed<div>In our institution</div>Apply an admission -->
+
+     <!-- DIV as a container -->
+
+     <!-- <div>
+        <h2>HTML div example</h2>
+        <p>Nairobi is the capital city of Kenya</p>
+        <p>Nairobi has over 20 million population</p>
+     </div> -->
+
+     <!-- Mutiple <div> elements -->
+
+        <div class="container">
+
+        <div style="background-color: #FFF4A3;">
+            <h2>Nairobi</h2>
+            <p>Nairobi is the capital city of Kenya</p>
+            <p>Nairobi has over 20 million population</p>
+         </div>
+
+         <div style="background-color: aqua;">
+            <h2>Mombasa</h2>
+            <p>Mombasa is the second largest city in Kenya</p>
+            <p>Mombasa has over 10 million population</p>
+         </div>
+
+         <div style="background-color: blueviolet;">
+            <h2>Kisumu</h2>
+            <p>Kisumu is located on the shores of L. Victoria</p>
+            <p>Kisumu has over 15 million population</p>
+         </div>
+
+        </div>
+
+         <!-- Aligning <div> elements side by side -->
+            <!-- Float - horizontally -->
+            <!-- inline-block - removes the before and after line break
+            Flex - flex container
+            Grid - rows and columns -->
+    
+</body>
+</html>
