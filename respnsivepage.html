@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: sans-serif;
+            color: #630202;
+        }
+        .container{
+            background-color: grey;
+            padding: 15px;
+            text-align: center;
+        }
+        .demo {
+            overflow: auto;
+        }
+        .menu {
+            float: left;
+            width: 20%;
+            text-align: center;
+        }
+        .menu a {
+            background-color: #e5e5e5;
+            padding: 8px;
+            margin-top: 7px;
+            display: block;
+            width: 100%;
+            color: black;
+            text-decoration: none;
+
+        }
+        .main {
+            float: left;
+            width: 60%;
+            padding: 0 20px;
+        }b
+        .right {
+            background-color: aqua;
+            float: left;
+            padding: 15px;
+            margin-top: 7px;
+            text-align: center;
+        }
+        .foot{
+            background-color: aquamarine;
+            text-align: center;
+            padding: 10px;
+            margin-top: 7px;
+        }
+        @media only screen and (max-width: 620px) {
+            .menu, .main, .right, .foot {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Hello World</h1>
+</div>
+<div class="demo">
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">Service</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="main">
+        <h2>Main Content</h2>
+        <p>Lorem ipsum dolor selit. Odio ullam nemo, numquam dolore libero repellendus, consequatur aut, molestias facere porro illum modi dolorem doloribus laborum! Hic praesentium blanditiis nobis cupiditate.</p>
+    </div>
+
+    <div class="right">
+        <h2>About US</h2>
+        <p>Lorem iexceeque asperiores, assumejas nisi quos id impedit dicta omnis!</p>
+    </div>
+</div>
+
+<div class="foot">
+    @ copyright website.com
+</div>
+
+</body>
+</html>
