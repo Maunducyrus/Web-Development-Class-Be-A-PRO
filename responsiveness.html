@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Responsiveness</title>
+
+<!-- internal css -->
+ <style>
+    * {
+        box-sizing: border-box;
+    }
+    .left {
+        background-color: #2196f3;
+        padding: 20px;
+        float: left;
+        width: 20%;
+    }
+
+    .main{
+        background-color: brown;
+        padding: 20px;
+        float: left;
+        width: 60%;
+    }
+    .right{
+        background-color: rgb(111, 237, 100);
+        padding: 20px;
+        float: left;
+        width: 20%;
+    }
+
+    /* use media query to add a break point at 800px */
+    @media screen and (max-width: 800px) {
+        .left, .main, .right {
+            width: 100%;
+        }
+    }
+ </style>
+
+</head>
+<body>
+    
+    <h1>HTML Responsive Web Design</h1>
+<!-- <img src="img/city-3.png" alt="Russian City" style="max-width: 100%; height: auto;"> -->
+
+
+<p style="font-size: 10w;">Welcome again and again</p>
+
+<!-- 1vw = 1% of viewport width -->
+
+<!-- Media Queries -->
+<h1>Media Queries</h1>
+
+ <p>Resize the browser Window</p>
+
+ <div class="left">
+    <p>Left menu</p>
+ </div>
+
+ <div class="main">
+    <p>Main Content</p>
+ </div>
+
+ <div class="right">
+    <p>Right Content</p>
+ </div>
+
+</body>
+</html>
