@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Element</title>
+</head>
+<body>
+    
+    <!-- Examples of Form Elements -->
+
+<!-- <input type="text">
+<label for=""></label>
+<select name="" id=""></select>
+<textarea name="" id=""></textarea>
+<button></button>
+<fieldset></fieldset>
+<legend></legend>
+<datalist></datalist>
+<output></output>
+<option value=""></option> -->
+
+<h2>Form Elements</h2>
+<label for="first_name">First Name</label><br>
+<input type="text" name="first_name" id="first_name" placeholder="Enter your first name"><br><br>
+
+<!-- select  -->
+ <label for="dish">Choose your favorite dish:-</label>
+ <select id="dish" name="dishes" size="4">
+        <option value="Biryani">Biryani</option>
+        <option value="Pilau">Pilau</option>
+        <option value="chips" selected>Chips</option>
+        <option value="Kabab">Kabab</option>
+        <option value="pizza">Pizza</option>
+ </select> 
+ <br><br>
+
+ <!-- textarea -->
+  <h2>Textarea</h2>
+    <label for="message">Message</label><br>
+    <textarea name="message" rows="10" cols="30"></textarea><br><br>
+
+    <h2>Fieldset and Legend</h2>
+    <form action="">
+        <fieldset>
+            <legend>Reach out</legend>
+            <label for="first_name">first_name</label><br>
+            <input type="text"><br>
+
+            <label for="second_name">Second_name</label><br>
+            <input type="text"><br>
+
+        </fieldset>
+    </form><br><br>
+
+    <!-- HTML INPUT TYPES -->
+     <!-- <input type="button">
+        <input type="checkbox">
+        <input type="color">
+        <input type="date">
+        <input type="datetime-local">
+        <input type="email">
+        <input type="file">
+        <input type="hidden">
+        <input type="image">
+        <input type="month">
+        <input type="number">
+        <input type="password">
+        <input type="radio">
+        <input type="range">
+        <input type="reset"> -->
+
+        <form action="">
+            <label for="">Username</label><br> 
+            <input type="text" name="username" id="username" value="Username" size="30" placeholder="Enter your username"><br><br>
+            <label for="">Password</label><br>
+            <input type="password" name="password" id="password" size="5" placeholder="Enter your password"><br><br>
+        </form><br>
+
+        <form action="">
+            <label for="">Upload your CV</label><br>
+            <input type="file" name="file" id="file"><br><br>
+        </form>
+
+        <form action="">
+            <label for="">Search Google</label><br>
+            <input type="search" name="search" id="search" placeholder="Search Google"><br><br>
+        </form>
+
+
+</body>
+</html>
