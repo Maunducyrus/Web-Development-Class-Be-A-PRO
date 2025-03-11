@@ -14,3 +14,7 @@ function count() {
     console.log(i);
 };
 count()
+
+// Comparison Operators
+let x = 5
+let y = 10
