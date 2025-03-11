@@ -16,5 +16,9 @@ function count() {
 count()
 
 // Comparison Operators
-let x = 5
-let y = 10
+let x = 10
+let y = 6
+
+if (x > 5) {
+    console.log('x is greater than y')
+}
