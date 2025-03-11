@@ -7,6 +7,8 @@
 // var z = 12;
 // console.log(z);
 
+// Checking function Block Scope
+
 function count() {
     for (let i = 0; i < 10; i++) {
         console.log(i);
