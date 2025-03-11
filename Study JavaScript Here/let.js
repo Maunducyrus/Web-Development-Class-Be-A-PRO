@@ -13,3 +13,4 @@ function count() {
     }
     console.log(i);
 };
+count()
