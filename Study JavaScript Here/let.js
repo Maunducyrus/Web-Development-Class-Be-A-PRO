@@ -27,3 +27,13 @@ if (x > y) {
 else {
     console.log('y is greater than x');
 }
+
+let m = 2
+let n = 2
+
+if ( m != n) {
+    console.log("equal");
+}
+else {
+    console.log("not equal");
+}
