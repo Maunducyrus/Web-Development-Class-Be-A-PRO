@@ -10,5 +10,8 @@
     <h1>JavaScript Operators Showcase</h1>
     <p>Open the browser console to see the results.</p>
     <script src="operators.js"></script>
+
+    <!-- Below is the expected output of the operators.js file: -->
+     
 </body>
 </html>
