@@ -12,8 +12,8 @@
     <script src="operators.js"></script>
 
     <!-- Below is the expected output of the operators.js file: -->
-     
-    === Arithmetic Operators ===
+
+    <!-- === Arithmetic Operators ===
     Addition (a + b): 15
     Subtraction (a - b): 5
     Multiplication (a * b): 50
@@ -64,7 +64,7 @@
     XOR (d ^ e): 6
     NOT (~d): -6
     Left Shift (d << 1): 10
-    Right Shift (d >> 1): 2
+    Right Shift (d >> 1): 2 -->
 
 </body>
 </html>
