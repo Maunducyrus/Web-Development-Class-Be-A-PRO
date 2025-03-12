@@ -12,6 +12,58 @@
     <script src="operators.js"></script>
 
     <!-- Below is the expected output of the operators.js file: -->
-     
+    === Arithmetic Operators ===
+    Addition (a + b): 15
+    Subtraction (a - b): 5
+    Multiplication (a * b): 50
+    Division (a / b): 2
+    Modulus (a % b): 0
+    Exponentiation (a ** b): 100000
+    Increment (a++): 10
+    Decrement (b--): 5
+    
+    === Comparison Operators ===
+    Equal (a == b): false
+    Strict Equal (a === b): false
+    Not Equal (a != b): true
+    Strict Not Equal (a !== b): true
+    Greater Than (a > b): true
+    Less Than (a < b): false
+    Greater Than or Equal (a >= b): true
+    Less Than or Equal (a <= b): false
+    
+    === Logical Operators ===
+    AND (x && y): false
+    OR (x || y): true
+    NOT (!x): false
+    
+    === Assignment Operators ===
+    Assignment (c = 10): 10
+    Add and Assign (c += 5): 15
+    Subtract and Assign (c -= 3): 12
+    Multiply and Assign (c *= 2): 24
+    Divide and Assign (c /= 4): 6
+    Modulus and Assign (c %= 5): 1
+    
+    === Ternary Operator ===
+    Ternary (age >= 18 ? 'Adult' : 'Minor'): Adult
+    
+    === Type Operators ===
+    typeof a: number
+    typeof 'Hello': string
+    typeof true: boolean
+    typeof null: object
+    typeof undefined: undefined
+    typeof [1, 2, 3]: object
+    typeof { name: 'John' }: object
+    
+    === Bitwise Operators ===
+    AND (d & e): 1
+    OR (d | e): 7
+    XOR (d ^ e): 6
+    NOT (~d): -6
+    Left Shift (d << 1): 10
+    Right Shift (d >> 1): 2
+
 </body>
 </html>
