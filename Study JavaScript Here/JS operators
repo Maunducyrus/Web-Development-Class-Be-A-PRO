@@ -7,5 +7,9 @@
 </head>
 <body>
     
+    <h1>JavaScript Operators Showcase</h1>
+    <p>Open the browser console to see the results.</p>
+    <script src="operators.js"></script>
+
 </body>
 </html>
