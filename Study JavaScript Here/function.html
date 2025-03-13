@@ -6,7 +6,7 @@
     <title>FUnction</title>
 </head>
 <body>
-<p id="demo"></p>
+<h1 id="demo"></h1>
 <script>
 // Function - block of code designed to perform a particular task
 // Function declaration
@@ -28,6 +28,67 @@ function getAge(yearOfBirth) {
 }
 console.log(getAge(1990)); // 35
 console.log(getAge(1985)); // 40
+
+<!-- Objects -->
+ housess
+ people
+ cars
+
+ <!-- properties -->
+  name
+  model
+  color
+
+  <!-- methods -->
+   car.start()
+   car.drive()
+   car.stop()
+
+   <script>
+    // creating an object
+    const car = {
+        type: "Audi",
+         model:"400", 
+         color:"black",
+        };
+    // Displaying data from the object
+    document.getElementById('demo').innerHTML = "The car type is " + car.type + " and the model is " + car.model;
+   </script>
+
+   <script>
+// create an empty object
+const man = {};
+// add properties to the object
+man.firstName = "John";
+man.lastName = "Doe";
+man.age = 30;
+man.eyeColor = "red";
+man.address = {
+        street : "123 Main St",
+        city : "New York",
+        state : "NY"
+    }
+// Displaying data from the object
+
+document.getElementById('demo').innerHTML = man.firstName + " is " + man.age + " years old." + "live in" + man.address.city;</script>
+
+
+<script>
+// creating an object inside another object
+const person = {
+    name : "John",
+    age : 30,
+    address : {
+        street : "123 Main St",
+        city : "New York",
+        state : "NY"
+    }
+    // hobbies : ["reading", "music", "movies"]
+    
+};
+// Displaying data from the object
+document.getElementById('demo').innerHTML = person.name + " lives in " + person.address.city + ", " + person.address.state;
+</script>
 
 </body>
 </html>
