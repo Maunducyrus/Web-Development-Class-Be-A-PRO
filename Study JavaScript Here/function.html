@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUnction</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+// Function - block of code designed to perform a particular task
+// Function declaration
+function myFunction(x, y) {
+    return x * y;
+}
+let result = myFunction(4, 3);
+document.getElementById('demo').innerHTML = result;
+
+</script>
+
+function name(parameters) {
+    // code to be executed
+}
+
+function getAge(yearOfBirth) {
+    const currentYear = new Date().getFullYear();
+    return currentYear - yearOfBirth;
+}
+console.log(getAge(1990)); // 35
+console.log(getAge(1985)); // 40
+
+</body>
+</html>
